@@ -13,7 +13,7 @@ var config = new ConsumerConfig
 
 using (var consumer = new ConsumerBuilder<Ignore, string>(config).Build())
 {
-    consumer.Subscribe("ElasticsearchDataTopic");
+    consumer.Subscribe("ElasticTopic");
 
     while (true)
     {
