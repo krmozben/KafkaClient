@@ -1,0 +1,10 @@
+
+
+docker exec -it kafka kafka-topics --bootstrap-server kafka:9092 --list 
+docker exec -it kafka kafka-topics --bootstrap-server kafka:9092 --create --topic ElasticsearchDataTopic
+docker exec -it kafka kafka-topics --bootstrap-server kafka:9092 --delete --topic ElasticsearchDataTopic
+
+
+docker exec -it kafka kafka-console-producer --bootstrap-server kafka:9092 --topic ElasticsearchDataTopic
+docker exec -it kafka kafka-console-consumer --bootstrap-server kafka:9092 --topic ElasticsearchDataTopic --from-beginning
+

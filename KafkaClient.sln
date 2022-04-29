@@ -1,16 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{83D5A153-EB7A-4C25-999E-DA664B0E5F70}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "Producer\Producer.csproj", "{B41DB030-0330-4A98-9E9B-867E47896B18}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{5C29C985-A50C-4390-817A-E1C766F97C5C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{F76575FD-85F7-48DB-B64E-1545EA00E4A6}"
 	ProjectSection(SolutionItems) = preProject
-		..\kafka\docker-compose.yaml = ..\kafka\docker-compose.yaml
-		..\kafka\kafka docker kodları.txt = ..\kafka\kafka docker kodları.txt
+		docker-compose.yaml = docker-compose.yaml
+		kafka docker kodları.txt = kafka docker kodları.txt
 	EndProjectSection
 EndProject
 Global
