@@ -18,6 +18,7 @@ using (var consumer = new ConsumerBuilder<Ignore, string>(config).Build())
     while (true)
     {
         var consumeResult = consumer.Consume();
+        Console.WriteLine(consumeResult.Message.Value);
     }
 
     consumer.Close();
