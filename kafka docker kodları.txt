@@ -8,3 +8,6 @@ docker exec -it kafka kafka-topics --bootstrap-server kafka:9092 --delete --topi
 docker exec -it kafka kafka-console-producer --bootstrap-server kafka:9092 --topic ElasticsearchDataTopic
 docker exec -it kafka kafka-console-consumer --bootstrap-server kafka:9092 --topic ElasticsearchDataTopic --from-beginning
 
+
+
+//Kafka elastic baðlantýsý için : https://github.com/confluentinc/demo-scene/tree/master/kafka-to-elasticsearch
